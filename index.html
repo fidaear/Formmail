@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>My first contact form</title>
+        <link rel="stylesheet" href="style.css">
+        
+    </head>
+    <body>
+<div class="wrapper">
+<header>Send us a message</header>
+<form action="message.php" method="post">
+    <div class="dbl-field">
+        <div class="field">
+            <input type="text" name="na" placeholder="Enter your name">
+            
+        </div>
+        
+        <div class="field">
+            <input type="email" name="ml" placeholder="Enter your Email">
+            
+        </div> </div>
+        <div class="dbl-field">
+        <div class="field">
+            <input type="number" name="ph" placeholder="Enter your phone">
+            
+        </div>
+        <div class="field">
+            <input type="text" name="web" placeholder="Enter your website">
+           
+        </div>
+    </div>
+    <div class="message">
+        <textarea placeholder="Write your message" name="zntxt"></textarea>
+    </div>
+    <div class="button-area">
+        <button type="submit">Send Message</button>
+        <span>Sending Message....</span>
+    </div>
+   
+</form>
+</div>
+</body>
+
+
+</html>
